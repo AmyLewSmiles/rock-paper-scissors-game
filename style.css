@@ -1,0 +1,32 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    margin: 3%;
+    padding: 0%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+h1{
+    color: teal;
+    size: 4rem;
+    font-weight: 700;
+}
+h2{
+    color: darkslategrey;
+    size: 2rem;
+}
+button{
+    margin: 3%;
+    height: 3rem;
+    width: 8rem;  
+    font-size: 1rem; 
+    background-color: teal;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 5%;
+    border: 5px sold black;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

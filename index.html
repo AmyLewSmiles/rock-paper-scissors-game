@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
+        <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Play Rock Paper Scissors</h1>
+    <p>Pick which you want to use, and the computer will also pick.</p>
+    <p>Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.</p>
+    <button id="rock_button" value="rock">Rock</button>
+    <button id="paper_button" value="paper">Paper</button>
+    <button id="scissors_button" value="scissors">Scissors</button>   
+    <br>
+    <h2 class="result">Result: </h2>
+    <p id="result_message"></p> 
+    <br>
+    <h2>Scores</h2>
+    <p class="score">Player: <span id="player_score">0</span></p>
+    <p class="score">Computer: <span id="computer_score">0</span></p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
